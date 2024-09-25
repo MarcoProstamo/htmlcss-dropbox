@@ -10,8 +10,19 @@ img {
   max-width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
+}
+
+.links ul li {
+  display: inline-block;
+  margin: 0 0.9rem;
+  cursor: pointer;
 }
 
 /* # Utils */
@@ -34,12 +45,43 @@ body {
   width: 50%;
 }
 
-.links ul {
-  list-style-type: none;
+.btn {
+  display: inline-block;
+  padding: 0.4rem 0.9rem;
+  border: 0;
+  background-color: #0061ff;
+  font-size: 0.8rem;
+  color: white;
+  cursor: pointer;
 }
 
 /* # Header */
 
-.page-header .row {
+.page-header {
+  padding: 1.1rem 1rem;
+  color: #3e3e3e;
+}
+
+.page-header .logo {
+  height: 1.2rem;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.page-header:first-child .row {
   justify-content: space-between;
+}
+
+.page-header .row {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.page-header .links {
+  font-size: 0.8rem;
+}
+
+.btn.btn-login {
+  color: #3e3e3e;
+  background-color: transparent;
 }
