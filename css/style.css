@@ -52,6 +52,12 @@ body {
   margin: 0 auto;
 }
 
+.container-sm {
+  width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 .row {
   display: flex;
 }
@@ -113,7 +119,7 @@ body {
   background-color: transparent;
 }
 
-/* # Section */
+/* # Hero Section */
 
 .hero-section {
   background-color: #b4d0e7;
@@ -146,6 +152,118 @@ body {
 .hero-section .col-30 i {
   font-size: 2.5rem;
   padding-top: 5.5rem;
+}
+
+/* # Business Plan Section */
+
+.business-plan-section {
+  margin: 7rem 0;
+}
+
+.business-plan-section .row {
+  flex-wrap: wrap;
+}
+
+.business-plan-section .title {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.business-plan-section .radio span {
+  font-size: 0.7rem;
+  margin-right: 2.2rem;
+  color: #3e3e3e;
+}
+
+.business-plan-section .col-30 {
+  border: 1px solid #aaaaaa;
+}
+
+.business-plan-section .card-title {
+  text-align: center;
+  border-bottom: 1px solid #aaaaaa;
+  color: black;
+  font-size: 0.7rem;
+  font-weight: 100;
+  padding: 0.3rem 0;
+}
+
+.business-plan-section .card-body-title {
+  color: black;
+  font-size: 0.7rem;
+  font-weight: 100;
+}
+
+.business-plan-section i.card-icon {
+  color: black;
+}
+
+.business-plan-section .card {
+  gap: 2rem;
+}
+
+.card {
+  margin-top: 2.5rem;
+}
+
+.card > .col-30 {
+  flex-grow: 1;
+}
+
+.card-body {
+  padding: 1.5rem 1.5rem;
+}
+
+.card-body-header {
+  margin-bottom: 2.5rem;
+}
+
+.card-body-header h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.9rem;
+}
+
+.card-body-header h5 {
+  font-size: 0.7rem;
+  margin-bottom: 0.3rem;
+}
+
+.card-body span {
+  font-size: 0.7rem;
+}
+
+.card-body span.divider {
+  display: inline-block;
+  border-bottom: 1px solid #aaaaaa;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn.btn-card-free-trial {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  padding: 0.6rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-body a {
+  font-size: 0.7rem;
+  text-decoration: underline;
+  color: #0061ff;
+}
+
+.card-body h6 {
+  margin-bottom: 1.5rem;
+}
+
+.card-links {
+  font-size: 0.7rem;
+  color: black;
+  font-weight: 100;
+}
+
+.card-links li {
+  margin-bottom: 1rem;
 }
 
 /* # Footer */
