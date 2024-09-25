@@ -293,6 +293,49 @@ body {
   margin-bottom: 2rem;
 }
 
+/* # Multitasking Section */
+
+.multitasking-section {
+  margin-top: 7rem;
+}
+
+.multitasking-section .row {
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.multitasking-section .row .col-30 {
+  flex-grow: 1;
+}
+
+.multitasking-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.multitasking-section p {
+  font-size: 0.9rem;
+  color: black;
+  font-weight: 100;
+  margin-top: 1rem;
+}
+
+/* # Client Info Section */
+
+.client-info-section {
+  margin-top: 7rem;
+}
+
+.client-info-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.client-info-section a {
+  text-decoration: underline;
+  color: #0061ff;
+}
+
 /* # Footer */
 
 .page-footer {
