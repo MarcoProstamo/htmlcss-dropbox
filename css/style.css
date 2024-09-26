@@ -468,6 +468,30 @@ body {
   padding: 1rem 2rem;
 }
 
+/* # FAQ Section */
+
+.faq-section {
+  margin: 7rem 0;
+}
+
+.faq-section .row {
+  flex-wrap: wrap;
+}
+
+.faq-section h2 {
+  font-size: 2rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #aaa;
+}
+
+.faq-section .row > .col-100 {
+  padding: 2rem 0;
+  border-bottom: 1px solid #aaa;
+  color: black;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
 /* # Footer */
 
 .page-footer {
