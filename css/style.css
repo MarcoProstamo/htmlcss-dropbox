@@ -332,6 +332,28 @@ body {
   margin-bottom: 1rem;
 }
 
+.card-main .row .col-70 p {
+  font-size: 0.7rem;
+  color: black;
+  font-weight: 100;
+}
+
+.card-main > .row.single-card {
+  flex-direction: row;
+}
+
+.card-main > .row.single-card h3 {
+  margin-bottom: 0.5rem;
+}
+
+.card-main > .row.single-card h6 {
+  margin-bottom: 2rem;
+}
+
+.card-main > .row.single-card .btn.btn-free-trial {
+  width: 100%;
+}
+
 /* # Partner Section */
 
 .partner-section .row {
