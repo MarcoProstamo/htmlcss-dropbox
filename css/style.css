@@ -570,17 +570,11 @@ body {
 .page-footer {
   color: white;
   background-color: black;
-  min-height: 24rem;
-  padding-top: 5rem;
+  padding-top: 6rem;
 }
 
-.page-footer .row {
+.upper-footer .row {
   justify-content: space-between;
-}
-
-.page-footer .links ul {
-  display: flex;
-  flex-direction: column;
 }
 
 .sub-title-footer {
@@ -588,7 +582,12 @@ body {
   margin-bottom: 1rem;
 }
 
-.page-footer .links li {
+.upper-footer .links > ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.upper-footer .link {
   font-size: 0.7rem;
   margin-bottom: 0.9rem;
   margin-left: 0;
@@ -597,15 +596,16 @@ body {
 .lower-footer {
   color: #aaaaaa;
   font-size: 0.8rem;
-  padding-top: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
 }
 
 .lower-footer .language-choice {
-  border-top: 1px solid aliceblue;
+  border-top: 1px solid white;
   display: inline-block;
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 
 .lower-footer span {
-  margin: 0.5rem;
+  margin-left: 0.5rem;
 }
