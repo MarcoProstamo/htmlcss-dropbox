@@ -234,6 +234,7 @@ body {
 
 .card-main-spec {
   margin-bottom: 2rem;
+  position: relative;
 }
 
 .card-main-spec ul {
@@ -245,6 +246,7 @@ body {
 
 .card-main-spec ul li {
   margin-bottom: 0.5rem;
+  list-style-type: none;
 }
 
 .card-main-cta .btn-free-trial-card {
@@ -279,6 +281,8 @@ body {
 
 .card-main-advantages ul li {
   margin-bottom: 0.5rem;
+  list-style-type: none;
+  position: relative;
 }
 
 .business-plan-section .col-100 {
@@ -290,6 +294,42 @@ body {
 
 .business-plan-section .col-100 .row {
   flex-wrap: nowrap;
+}
+
+.card-icon-user {
+  position: absolute;
+  left: 1%;
+  top: 8%;
+}
+
+.card-icon-users {
+  position: absolute;
+  left: 0%;
+  top: 7%;
+}
+
+.card-icon-folder {
+  position: absolute;
+  left: 1%;
+  top: 26%;
+}
+
+.card-icon-node {
+  position: absolute;
+  left: 1%;
+  top: 58%;
+}
+
+.card-icon-check {
+  color: #0061ff;
+  position: absolute;
+  left: -9%;
+  top: 10%;
+  font-size: 0.8rem;
+}
+
+.card-main-advantages > h6 {
+  margin-bottom: 1rem;
 }
 
 /* # Partner Section */
