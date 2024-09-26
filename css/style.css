@@ -160,110 +160,136 @@ body {
   margin: 7rem 0;
 }
 
-.business-plan-section .row {
-  flex-wrap: wrap;
+.business-plan-title {
+  padding-bottom: 2.5rem;
 }
 
-.business-plan-section .title {
+.business-plan-title .title {
   font-size: 2rem;
-  margin-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 
-.business-plan-section .radio span {
-  font-size: 0.7rem;
-  margin-right: 2.2rem;
-  color: #3e3e3e;
-}
-
-.business-plan-section .col-30 {
-  border: 1px solid #aaaaaa;
-}
-
-.business-plan-section .card-title {
-  text-align: center;
-  border-bottom: 1px solid #aaaaaa;
+.business-plan-title .radio {
+  display: inline-block;
+  margin-right: 2rem;
+  font-size: 0.8rem;
   color: black;
-  font-size: 0.7rem;
-  font-weight: 100;
-  padding: 0.3rem 0;
-}
-
-.business-plan-section .card-body-title {
-  color: black;
-  font-size: 0.7rem;
   font-weight: 100;
 }
 
-.business-plan-section i.card-icon {
-  color: black;
+.business-plan-section .container-sm > .row {
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.business-plan-section .card {
-  gap: 2rem;
+.business-plan-section .container-sm > .row > .col-30 {
+  display: flex;
 }
 
 .card {
-  margin-top: 2.5rem;
+  border: 1px solid #dddddd;
 }
 
-.card > .col-30 {
-  flex-grow: 1;
-}
-
-.card-body {
-  padding: 1.5rem 1.5rem;
-}
-
-.card-body-header {
-  margin-bottom: 2.5rem;
-}
-
-.card-body-header h4 {
-  font-size: 1.1rem;
-  margin-bottom: 0.9rem;
-}
-
-.card-body-header h5 {
-  font-size: 0.7rem;
-  margin-bottom: 0.3rem;
-}
-
-.card-body span {
-  font-size: 0.7rem;
-}
-
-.card-body span.divider {
-  display: inline-block;
-  border-bottom: 1px solid #aaaaaa;
-  padding-bottom: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.btn.btn-card-free-trial {
-  margin-top: 3rem;
-  margin-bottom: 1rem;
-  padding: 0.6rem 1rem;
-  margin-bottom: 1rem;
-}
-
-.card-body a {
-  font-size: 0.7rem;
-  text-decoration: underline;
-  color: #0061ff;
-}
-
-.card-body h6 {
-  margin-bottom: 1.5rem;
-}
-
-.card-links {
+.card-header {
+  text-align: center;
   font-size: 0.7rem;
   color: black;
   font-weight: 100;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid #dddddd;
 }
 
-.card-links li {
-  margin-bottom: 1rem;
+.card-main {
+  margin: 2rem 1.7rem;
+}
+
+.card-main > .row {
+  flex-direction: column;
+}
+
+.card-main-title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.card-main-title .card-main-subtitle {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-main-title .card-main-price {
+  color: black;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-top: 1rem;
+}
+
+.card-main-title .card-main-period {
+  color: #333;
+  font-size: 0.7rem;
+  padding-top: 0.7rem;
+}
+
+.card-main-spec {
+  margin-bottom: 2rem;
+}
+
+.card-main-spec ul {
+  padding-left: 1rem;
+  font-size: 0.7rem;
+  color: black;
+  font-weight: 200;
+}
+
+.card-main-spec ul li {
+  margin-bottom: 0.5rem;
+}
+
+.card-main-cta .btn-free-trial-card {
+  width: 100%;
+  padding: 0.6rem 0;
+}
+
+.card-main-cta span {
+  font-size: 0.7rem;
+  color: black;
+  font-weight: 200;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-main-cta a {
+  text-decoration: underline;
+  color: #0082f5;
+  font-size: 0.7rem;
+  font-weight: 200;
+}
+
+.card-main-advantages ul {
+  padding-left: 1rem;
+  font-size: 0.7rem;
+  color: black;
+  font-weight: 200;
+}
+
+.card-main-advantages ul li {
+  margin-bottom: 0.5rem;
+}
+
+.business-plan-section .col-100 {
+  margin-top: 2rem;
+}
+.business-plan-section .col-100 .row {
+  height: 100px;
+}
+
+.business-plan-section .col-100 .row {
+  flex-wrap: nowrap;
 }
 
 /* # Partner Section */
